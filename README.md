@@ -64,8 +64,8 @@ No arquivo ~/.m2/settings.xml, adicione a config:
     …
     <server>
       <id>my.datomic.com</id>
-      <username>luca.lopes97@hotmail.com</username>
-      <password>30500859-8707-4d02-b47b-da938c096638</password>
+      <username>username@email.com</username>
+      <password>00000000-0000-0d00-b00b-da000c000000</password>
     </server>
     …
   </servers>
