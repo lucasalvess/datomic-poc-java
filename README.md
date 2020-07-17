@@ -122,3 +122,11 @@ Usando o Datomic Peer API, crie um database:
 (d/create-database db-uri)
 ```
 
+## Peer Server
+
+Depois de ter um banco criado via REPL será necessário criar um servidor ponto a ponto que vai fazer a interface com nossa aplicação.
+
+```sh
+ bin/run -m datomic.peer-server -h localhost -p 8998 -a mykey,mypass -d poc,datomic:dev://localhost:4334/poc  
+ ```
+Dessa forma teremos uma peer server para conectarmos na porta 8998.
